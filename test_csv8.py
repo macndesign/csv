@@ -1,5 +1,5 @@
 # coding: utf-8
-import csv, re
+import csv
 
 field_types = [('Price', float), ('Change', float), ('Volume', int)]
 with open('stocks.csv') as f:
